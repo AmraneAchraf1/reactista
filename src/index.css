@@ -1,0 +1,71 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+a.active {
+  text-decoration: underline;
+}
+a {
+  text-decoration: none;
+}
+.userCard{
+  color: #1c1c1c;
+}
+.userCard:hover{
+  color: #1c1c1c;
+  box-shadow: 0 0 5px #1c1c1c;
+}
+.swiper {
+  min-width: 100%;
+  height: 400px;
+  background-color: #1c1c1c;
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+  background-color: #1c1c1c;
+  color: white;
+  /* Center slide text vertically */
+  display: -webkit-box;
+
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  background-color: aquamarine;
+}
+
+.card_product{
+  display: grid;
+
+  justify-items: center;
+  gap: 40px;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+}
